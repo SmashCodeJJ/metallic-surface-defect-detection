@@ -145,6 +145,14 @@ Run `notebooks/02_training_and_detection.ipynb` which:
 
 Use the Blockly programs in `robotic_arm/` with Dobot Studio, or run `robotic_arm/dobot_mbnv3/dobot_mbnV3.py` for MobileNetV3-based classification with the Dobot arm.
 
+### 6. Analyze sample images (OpenCV preprocessing demo)
+
+```bash
+python scripts/analyze_sample_images.py
+```
+
+Generates edge maps and `results/image_analysis/analysis_summary.json` from sample washer photos.
+
 ---
 
 ## Research Context
