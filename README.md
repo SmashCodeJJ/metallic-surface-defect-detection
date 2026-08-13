@@ -3,7 +3,8 @@
 ![CI](https://github.com/SmashCodeJJ/metallic-surface-defect-detection/actions/workflows/ci.yml/badge.svg)
 
 **Author:** Youxin Zhuo ([SmashCodeJJ](https://github.com/SmashCodeJJ))  
-**Institution:** Penn State University · Acura Research Project  
+**Education:** B.S., Pennsylvania State University · Graduate Student, University of Pennsylvania (UPenn)  
+**Institution:** Penn State University (undergraduate project) · Acura Research Project  
 **Domain:** Computer Vision · Object Detection · Manufacturing QA · Robotics
 
 ---
