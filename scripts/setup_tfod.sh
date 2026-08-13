@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 # Setup TensorFlow Object Detection API for washer defect detection training/inference.
 # Run from repo root: bash scripts/setup_tfod.sh
+#
+# NOTE: TFOD works best with TensorFlow 2.8–2.10. TF 2.15+ may have compatibility issues
+# with older object_detection protos. If setup fails, use the original TFODCourse venv or Colab.
 
 set -euo pipefail
 
@@ -13,7 +16,7 @@ echo "=== TFOD Setup for Metallic Surface Defect Detection ==="
 python3 -m venv "$VENV"
 source "$VENV/bin/activate"
 pip install --upgrade pip
-pip install "tensorflow==2.15.0" opencv-python matplotlib pandas protobuf==3.20.3
+pip install "tensorflow==2.8.0" opencv-python matplotlib pandas "protobuf==3.20.3"
 
 mkdir -p "$TF_DIR"/{workspace/{annotations,images/{train,test},models,pre-trained-models},scripts,models}
 
