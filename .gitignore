@@ -1,0 +1,49 @@
+# Large media files
+*.mov
+*.MOV
+*.MP4
+*.mp4
+*.avi
+
+# Model weights and checkpoints
+*.ckpt
+*.pb
+*.h5
+*.weights
+save_weights/
+checkpoints/
+models/
+pre-trained-models/
+Tensorflow/
+
+# Data (too large for git)
+*.tar.gz
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+.env
+.venv/
+venv/
+tfod/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+
+# Documents (keep in local archive)
+*.docx
+*.pptx
+*.pdf
+
+# Dobot SDK binaries
+*.dll
+*.so
