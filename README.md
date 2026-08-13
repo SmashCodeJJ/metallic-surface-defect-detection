@@ -1,5 +1,7 @@
 # Metallic Surfaces Defect Detection and Classification
 
+![CI](https://github.com/SmashCodeJJ/metallic-surface-defect-detection/actions/workflows/ci.yml/badge.svg)
+
 **Author:** Youxin Zhuo ([SmashCodeJJ](https://github.com/SmashCodeJJ))  
 **Institution:** Penn State University · Acura Research Project  
 **Domain:** Computer Vision · Object Detection · Manufacturing QA · Robotics
@@ -151,7 +153,23 @@ Use the Blockly programs in `robotic_arm/` with Dobot Studio, or run `robotic_ar
 python scripts/analyze_sample_images.py
 ```
 
-Generates edge maps and `results/image_analysis/analysis_summary.json` from sample washer photos.
+### 7. Visualize labeled dataset (Pascal VOC annotations)
+
+```bash
+python scripts/visualize_annotations.py
+```
+
+Generates labeled bounding box images in `results/annotations/` from the included dataset (22 images: DefectiveWashers + NonDefectiveWashers).
+
+### 8. Run SSD MobileNet V2 detection (requires TFOD setup)
+
+```bash
+bash scripts/setup_tfod.sh
+export MODEL_PATH="/path/to/trained/checkpoint"
+python scripts/run_detection.py
+```
+
+The trained checkpoint from the original project is at `TFODCourse/Tensorflow/workspace/models/my_ssd_mobnet/` locally.
 
 ---
 

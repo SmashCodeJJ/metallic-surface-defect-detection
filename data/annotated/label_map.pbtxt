@@ -1,0 +1,8 @@
+item { 
+	name:'DefectiveWashers'
+	id:1
+}
+item { 
+	name:'NonDefectiveWashers'
+	id:2
+}

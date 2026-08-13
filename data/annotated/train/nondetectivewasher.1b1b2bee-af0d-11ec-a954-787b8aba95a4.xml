@@ -1,0 +1,26 @@
+<annotation>
+	<folder>nondetectivewasher</folder>
+	<filename>nondetectivewasher.1b1b2bee-af0d-11ec-a954-787b8aba95a4.jpg</filename>
+	<path>/Users/apple/Documents/Programming Language/Python/Tensorflow Object Detection/TFODCourse/Tensorflow/workspace/images/collectedimages/nondetectivewasher/nondetectivewasher.1b1b2bee-af0d-11ec-a954-787b8aba95a4.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>NonDetectiveWashers</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>757</xmin>
+			<ymin>559</ymin>
+			<xmax>858</xmax>
+			<ymax>663</ymax>
+		</bndbox>
+	</object>
+</annotation>

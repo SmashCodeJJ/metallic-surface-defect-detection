@@ -1,0 +1,36 @@
+name: Defect Detection CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  analyze-images:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install opencv-python-headless numpy
+
+      - name: Analyze sample images
+        run: python scripts/analyze_sample_images.py
+
+      - name: Visualize annotations
+        run: python scripts/visualize_annotations.py
+
+      - name: Upload results
+        uses: actions/upload-artifact@v4
+        with:
+          name: defect-analysis-results
+          path: results/

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>detectivewasher</folder>
+	<filename>detectivewasher.3873640c-af0a-11ec-a954-787b8aba95a4.jpg</filename>
+	<path>/Users/apple/Documents/Programming Language/Python/Tensorflow Object Detection/TFODCourse/Tensorflow/workspace/images/collectedimages/detectivewasher/detectivewasher.3873640c-af0a-11ec-a954-787b8aba95a4.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1920</width>
+		<height>1080</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>DetectiveWashers</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>677</xmin>
+			<ymin>709</ymin>
+			<xmax>879</xmax>
+			<ymax>770</ymax>
+		</bndbox>
+	</object>
+</annotation>

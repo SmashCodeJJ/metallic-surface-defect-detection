@@ -25,6 +25,7 @@ __pycache__/
 *.py[cod]
 .env
 .venv/
+.venv-tfod/
 venv/
 tfod/
 

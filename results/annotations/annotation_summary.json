@@ -1,0 +1,205 @@
+{
+  "total_images": 22,
+  "defective": 0,
+  "non_defective": 0,
+  "details": [
+    {
+      "split": "test",
+      "image": "detectivewasher.baf1bfe4-af0c-11ec-a954-787b8aba95a4.jpg",
+      "objects": 1,
+      "classes": [
+        "DetectiveWashers"
+      ],
+      "output": "results/annotations/test_detectivewasher.baf1bfe4-af0c-11ec-a954-787b8aba95a4_labeled.jpg"
+    },
+    {
+      "split": "test",
+      "image": "nondetectivewasher.070170a0-af0d-11ec-a954-787b8aba95a4.jpg",
+      "objects": 1,
+      "classes": [
+        "NonDetectiveWashers"
+      ],
+      "output": "results/annotations/test_nondetectivewasher.070170a0-af0d-11ec-a954-787b8aba95a4_labeled.jpg"
+    },
+    {
+      "split": "train",
+      "image": "detectivewasher.3873640c-af0a-11ec-a954-787b8aba95a4.jpg",
+      "objects": 1,
+      "classes": [
+        "DetectiveWashers"
+      ],
+      "output": "results/annotations/train_detectivewasher.3873640c-af0a-11ec-a954-787b8aba95a4_labeled.jpg"
+    },
+    {
+      "split": "train",
+      "image": "detectivewasher.3e90142a-af0a-11ec-a954-787b8aba95a4.jpg",
+      "objects": 1,
+      "classes": [
+        "DetectiveWashers"
+      ],
+      "output": "results/annotations/train_detectivewasher.3e90142a-af0a-11ec-a954-787b8aba95a4_labeled.jpg"
+    },
+    {
+      "split": "train",
+      "image": "detectivewasher.bb92beda-af0c-11ec-a954-787b8aba95a4.jpg",
+      "objects": 1,
+      "classes": [
+        "DetectiveWashers"
+      ],
+      "output": "results/annotations/train_detectivewasher.bb92beda-af0c-11ec-a954-787b8aba95a4_labeled.jpg"
+    },
+    {
+      "split": "train",
+      "image": "detectivewasher.bc33e058-af0c-11ec-a954-787b8aba95a4.jpg",
+      "objects": 1,
+      "classes": [
+        "DetectiveWashers"
+      ],
+      "output": "results/annotations/train_detectivewasher.bc33e058-af0c-11ec-a954-787b8aba95a4_labeled.jpg"
+    },
+    {
+      "split": "train",
+      "image": "detectivewasher.bcd58cbe-af0c-11ec-a954-787b8aba95a4.jpg",
+      "objects": 1,
+      "classes": [
+        "DetectiveWashers"
+      ],
+      "output": "results/annotations/train_detectivewasher.bcd58cbe-af0c-11ec-a954-787b8aba95a4_labeled.jpg"
+    },
+    {
+      "split": "train",
+      "image": "detectivewasher.bd760b8a-af0c-11ec-a954-787b8aba95a4.jpg",
+      "objects": 1,
+      "classes": [
+        "DetectiveWashers"
+      ],
+      "output": "results/annotations/train_detectivewasher.bd760b8a-af0c-11ec-a954-787b8aba95a4_labeled.jpg"
+    },
+    {
+      "split": "train",
+      "image": "detectivewasher.be17c2cc-af0c-11ec-a954-787b8aba95a4.jpg",
+      "objects": 1,
+      "classes": [
+        "DetectiveWashers"
+      ],
+      "output": "results/annotations/train_detectivewasher.be17c2cc-af0c-11ec-a954-787b8aba95a4_labeled.jpg"
+    },
+    {
+      "split": "train",
+      "image": "detectivewasher.f1cf5de8-af0a-11ec-a954-787b8aba95a4.jpg",
+      "objects": 1,
+      "classes": [
+        "DetectiveWashers"
+      ],
+      "output": "results/annotations/train_detectivewasher.f1cf5de8-af0a-11ec-a954-787b8aba95a4_labeled.jpg"
+    },
+    {
+      "split": "train",
+      "image": "detectivewasher.f7e2b0ae-af0a-11ec-a954-787b8aba95a4.jpg",
+      "objects": 1,
+      "classes": [
+        "DetectiveWashers"
+      ],
+      "output": "results/annotations/train_detectivewasher.f7e2b0ae-af0a-11ec-a954-787b8aba95a4_labeled.jpg"
+    },
+    {
+      "split": "train",
+      "image": "detectivewasher.faeee3f8-af0a-11ec-a954-787b8aba95a4.jpg",
+      "objects": 1,
+      "classes": [
+        "DetectiveWashers"
+      ],
+      "output": "results/annotations/train_detectivewasher.faeee3f8-af0a-11ec-a954-787b8aba95a4_labeled.jpg"
+    },
+    {
+      "split": "train",
+      "image": "nondetectivewasher.03588efc-af0d-11ec-a954-787b8aba95a4.jpg",
+      "objects": 1,
+      "classes": [
+        "NonDetectiveWashers"
+      ],
+      "output": "results/annotations/train_nondetectivewasher.03588efc-af0d-11ec-a954-787b8aba95a4_labeled.jpg"
+    },
+    {
+      "split": "train",
+      "image": "nondetectivewasher.052d466e-af0d-11ec-a954-787b8aba95a4.jpg",
+      "objects": 1,
+      "classes": [
+        "NonDetectiveWashers"
+      ],
+      "output": "results/annotations/train_nondetectivewasher.052d466e-af0d-11ec-a954-787b8aba95a4_labeled.jpg"
+    },
+    {
+      "split": "train",
+      "image": "nondetectivewasher.0aaa51cc-af0d-11ec-a954-787b8aba95a4.jpg",
+      "objects": 1,
+      "classes": [
+        "NonDetectiveWashers"
+      ],
+      "output": "results/annotations/train_nondetectivewasher.0aaa51cc-af0d-11ec-a954-787b8aba95a4_labeled.jpg"
+    },
+    {
+      "split": "train",
+      "image": "nondetectivewasher.0c7e3e64-af0d-11ec-a954-787b8aba95a4.jpg",
+      "objects": 1,
+      "classes": [
+        "NonDetectiveWashers"
+      ],
+      "output": "results/annotations/train_nondetectivewasher.0c7e3e64-af0d-11ec-a954-787b8aba95a4_labeled.jpg"
+    },
+    {
+      "split": "train",
+      "image": "nondetectivewasher.0e52b1b6-af0d-11ec-a954-787b8aba95a4.jpg",
+      "objects": 1,
+      "classes": [
+        "NonDetectiveWashers"
+      ],
+      "output": "results/annotations/train_nondetectivewasher.0e52b1b6-af0d-11ec-a954-787b8aba95a4_labeled.jpg"
+    },
+    {
+      "split": "train",
+      "image": "nondetectivewasher.11f6bcc2-af0d-11ec-a954-787b8aba95a4.jpg",
+      "objects": 1,
+      "classes": [
+        "NonDetectiveWashers"
+      ],
+      "output": "results/annotations/train_nondetectivewasher.11f6bcc2-af0d-11ec-a954-787b8aba95a4_labeled.jpg"
+    },
+    {
+      "split": "train",
+      "image": "nondetectivewasher.13cac386-af0d-11ec-a954-787b8aba95a4.jpg",
+      "objects": 1,
+      "classes": [
+        "NonDetectiveWashers"
+      ],
+      "output": "results/annotations/train_nondetectivewasher.13cac386-af0d-11ec-a954-787b8aba95a4_labeled.jpg"
+    },
+    {
+      "split": "train",
+      "image": "nondetectivewasher.159eb370-af0d-11ec-a954-787b8aba95a4.jpg",
+      "objects": 1,
+      "classes": [
+        "NonDetectiveWashers"
+      ],
+      "output": "results/annotations/train_nondetectivewasher.159eb370-af0d-11ec-a954-787b8aba95a4_labeled.jpg"
+    },
+    {
+      "split": "train",
+      "image": "nondetectivewasher.1773cca8-af0d-11ec-a954-787b8aba95a4.jpg",
+      "objects": 1,
+      "classes": [
+        "NonDetectiveWashers"
+      ],
+      "output": "results/annotations/train_nondetectivewasher.1773cca8-af0d-11ec-a954-787b8aba95a4_labeled.jpg"
+    },
+    {
+      "split": "train",
+      "image": "nondetectivewasher.1b1b2bee-af0d-11ec-a954-787b8aba95a4.jpg",
+      "objects": 1,
+      "classes": [
+        "NonDetectiveWashers"
+      ],
+      "output": "results/annotations/train_nondetectivewasher.1b1b2bee-af0d-11ec-a954-787b8aba95a4_labeled.jpg"
+    }
+  ]
+}
